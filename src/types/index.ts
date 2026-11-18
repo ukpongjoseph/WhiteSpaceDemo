@@ -1,7 +1,9 @@
+import type { SvgIconComponent } from "@mui/icons-material"
+
 export type linkList = {
-    startIcon? : string,
-    linkText : string,
-    endIcon? : string
+    startIcon? : SvgIconComponent,
+    text : string,
+    endIcon? : SvgIconComponent
 }
 
 export type cardCommon = {
@@ -13,7 +15,7 @@ export type cardCommon = {
 
 export type planType = {
     plan : string,
-    price : string,
+    price : number,
     planDescription : string,
     planFeatures : linkList[],
     actionLabel : string,
