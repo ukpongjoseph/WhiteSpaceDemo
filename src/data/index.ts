@@ -5,8 +5,8 @@ import {
   type planType,
   type testimonial,
 } from "../types/index";
-import LanguageIcon from '@mui/icons-material/Language';
-import CopyrightIcon from '@mui/icons-material/Copyright';
+import LanguageIcon from "@mui/icons-material/Language";
+import CopyrightIcon from "@mui/icons-material/Copyright";
 
 export const navLinks: linkList[] = [
   { text: "Products" },
@@ -154,44 +154,56 @@ export const tryUs: cardCommon = {
   actionLabel: "Try Blacktyga",
 };
 
-export const footerSeed : footerType[] = [
-    {
-        index : 'Product',
-        links : [{text : 'Overview'},{text : 'Pricing'},{text : 'Customer stories'}]
-    },
-    {
-        index : 'Resources',
-        links : [{text : 'Overview'},{text : 'Pricing'},{text : 'Customer stories'}]
-    },
-    {
-        index : 'Company',
-        links : [{text : 'Overview'},{text : 'Pricing'},{text : 'Customer stories'}]
-    }
-]
+export const footerSeed: footerType[] = [
+  {
+    index: "Product",
+    links: [
+      { text: "Overview" },
+      { text: "Pricing" },
+      { text: "Customer stories" },
+    ],
+  },
+  {
+    index: "Resources",
+    links: [
+      { text: "Overview" },
+      { text: "Pricing" },
+      { text: "Customer stories" },
+    ],
+  },
+  {
+    index: "Company",
+    links: [
+      { text: "Overview" },
+      { text: "Pricing" },
+      { text: "Customer stories" },
+    ],
+  },
+];
 
-export const todayTry : cardCommon = {
+export const todayTry: cardCommon = {
   title: "Give us a try Today",
   subtitle:
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio numquam quos odio nam vero alias soluta iure nostrum. ",
   actionLabel: "Start Today",
-}
+};
 
-export const footerTandC : linkList[] = [
-    {
-        startIcon : LanguageIcon,
-        text : 'English'
-    },
-    {
-        text : 'Terms and Privacy'
-    },
-    {
-        text : 'Security'
-    },
-    {
-        text : 'Status'
-    },
-    {
-        startIcon : CopyrightIcon,
-        text : '2026 WhiteSpace Inc'
-    }
-]
+export const footerTandC: linkList[] = [
+  {
+    startIcon: LanguageIcon,
+    text: "English",
+  },
+  {
+    text: "Terms and Privacy",
+  },
+  {
+    text: "Security",
+  },
+  {
+    text: "Status",
+  },
+  {
+    startIcon: CopyrightIcon,
+    text: "2026 WhiteSpace Inc",
+  },
+];
