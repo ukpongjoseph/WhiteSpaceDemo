@@ -1,14 +1,15 @@
 import { keyframes } from "@emotion/react"
+import type React from "react"
 
-export const buttonEffectOnHover : React.CSSProperties = {
-    'transform' : `scale(1.05)`,
-    backgroundColor : 'lightblue',
-    'transition' : `background-color 0.2s ease, transform 0.2s ease`
-} 
+export const buttonEffectOnHover: React.CSSProperties = {
+    'transform': `scale(1.05)`,
+    backgroundColor: 'lightblue',
+    'transition': `background-color 0.2s ease, transform 0.2s ease`
+}
 
 export const cardPlanEffectOnHover = {
-    'transform' : `scaleY(1.1)`,
-    'transition' : `transform 0.25s ease-out`
+    'transform': `scaleY(1.1)`,
+    'transition': `transform 0.25s ease-out`
 }
 
 
@@ -18,12 +19,26 @@ export const animationKeyframe = keyframes`
 `
 
 export const buttonColors = {
-    "normal" : '#4F9CF9',
-    "login" : '#FFE492'
+    "normal": '#4F9CF9',
+    "login": '#FFE492'
 }
 
 export const cardColor = {
-    'background' : '#043873',
-    'innerCard' : '#C4DEFD',
-    'clientCard' : '#4F9CF9'
+    'background': '#043873',
+    'innerCard': '#C4DEFD',
+    'clientCard': '#4F9CF9'
+}
+
+export const commonStyleProperties = {
+    width: {
+        xs: "95%",
+        md: "90%",
+        lg: "80%"
+    },
+    marginX: "auto",
+}
+
+export const buttonStyles:React.CSSProperties = {
+    textTransform : "none",
+    borderRadius : "10px",
 }
